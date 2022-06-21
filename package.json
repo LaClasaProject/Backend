@@ -1,0 +1,17 @@
+{
+  "name": "clasa-backend",
+  "version": "0.1.0",
+  "description": "TheClasa",
+  "main": "index.js",
+  "author": "Alexander9673 <alexander.m9673@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "cleanup": "node scripts/cleanup",
+    "compile": "tsc --project tsconfig.json",
+    "start": "npm run cleanup && npm run compile && node dist/"
+  }
+}
